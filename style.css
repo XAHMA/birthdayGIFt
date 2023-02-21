@@ -1,0 +1,120 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background: linear-gradient(#03071E, #370617, #6A040F, #9D0208, #D00000, #DC2F02, #E85D04, #F48C06, #FAA307, #FFBA08);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+}
+
+#avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 75px;
+    border: 6px solid #FFBA08;
+}
+
+#bday-age {
+    background-color: #FFBA08;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 15px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background-color: #FFBA08;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.gift-hint {
+     margin-top: 0;
+}
+
+.gift-title {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gift-img {
+    margin: 0 auto;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border: 6px solid #FFBA08;
+    border-radius: 10px;
+}
+
+#gift-img-narutorun {
+    width: 480px;
+    height: 426px;
+}
+
+#gift-img-narutorun:hover {
+    background-image: url("images/narutorun.gif");
+}
+
+#gift-img-tybw {
+    width: 500px;
+    height: 274px;
+}
+
+#gift-img-tybw:hover {
+    background-image: url("images/tybw.gif");
+}
+
+#gift-img-angle {
+    width: 400px;
+    height: 300px;
+}
+
+#gift-img-angle:hover {
+    background-image: url("images/angle.gif");
+}
+
+#gift-img-itachi {
+    height: 400px;
+    width: 400px;
+}
+
+#gift-img-itachi:hover {
+    background-image: url("images/itachi.gif");
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: inherit;
+}
