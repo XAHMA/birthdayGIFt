@@ -1,7 +1,6 @@
 body {
     font-family: 'Happy Monkey', cursive;
     text-align: center;
-    margin: 0 auto;
     background: linear-gradient(#03071E, #370617, #6A040F, #9D0208, #D00000, #DC2F02, #E85D04, #F48C06, #FAA307, #FFBA08);
     color: #ffffff;
 }
@@ -116,4 +115,13 @@ h1, h2, h3, h4, p {
 
 a {
     color: inherit;
+}
+
+@media (max-width: 480px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
