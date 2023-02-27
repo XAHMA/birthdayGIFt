@@ -116,12 +116,3 @@ h1, h2, h3, h4, p {
 a {
     color: inherit;
 }
-
-@media (max-width: 480px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-}
